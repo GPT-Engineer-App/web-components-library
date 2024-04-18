@@ -44,7 +44,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="https://placeimg.com/400/225/arch" alt="Architecture" />
+              <img src="https://via.placeholder.com/400x225?text=Architecture" alt="Architecture" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Architecture</h2>
@@ -56,7 +56,7 @@ function App() {
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="https://placeimg.com/400/225/nature" alt="Nature" />
+              <img src="https://via.placeholder.com/400x225?text=Nature" alt="Nature" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Nature</h2>
@@ -68,7 +68,7 @@ function App() {
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src="https://placeimg.com/400/225/tech" alt="Technology" />
+              <img src="https://via.placeholder.com/400x225?text=Technology" alt="Technology" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Technology</h2>
