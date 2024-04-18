@@ -144,6 +144,45 @@ function App() {
       </section>
 
       <section className="mb-10">
+        <h2 className="text-3xl font-semibold mb-4">Date Pickers</h2>
+        <div>
+          <label htmlFor="date-picker" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Choose a date
+          </label>
+          <input type="date" id="date-picker" className="input input-bordered w-full max-w-xs" />
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-3xl font-semibold mb-4">Notifications</h2>
+        <div>
+          <button className="btn btn-info" onClick={() => alert("This is a notification!")}>
+            Show Notification
+          </button>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-3xl font-semibold mb-4">Timelines</h2>
+        <div className="timeline">
+          <div className="timeline-item">
+            <div className="timeline-marker"></div>
+            <div className="timeline-content">
+              <p className="text-sm font-semibold">Event 1</p>
+              <p>Details about event 1.</p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-marker"></div>
+            <div className="timeline-content">
+              <p className="text-sm font-semibold">Event 2</p>
+              <p>Details about event 2.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-10">
         <h2 className="text-3xl font-semibold mb-4">Modals</h2>
         <div>
           <label htmlFor="my-modal" className="btn modal-button btn-primary">
